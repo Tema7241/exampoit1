@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: borden-box;
+}
+.main {
+	background-color:#67E667;
+	display: flex;
+	width:  95%;
+	max-width: 1000px;
+	margin: auto;
+	box-shadow: 0 0 10px 1 px rgba(0, 0, 0, 0.3) ;	
+	flex-wrap: wrap;
+	}
+body{
+	background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612687126_65-p-zelen-fon-dlya-fotoshopa-105.jpg);
+	background-position: center center;
+	background-size: cover;
+	padding: 50px;
+	background-repeat: no-repeat;
+       
+}
+.heading{
+        font-size: 32px;
+		text-align: center;
+		width: 100%;
+		padding: 30px 0;
+}
+.artem{
+	    font-size: 32px;
+		text-align: center;
+		width: 100%;
+		padding: 30px 0;
+}
+.foto{
+	max-height: 500px;
+	max-width: 500px;
+	fixed: right 50px;		
+	height: calc(95vw / 2 / 16 * 9);
+	width: calc(50vw - 10px );
+	background-color: dodgerblue;
+	/*margin: 5px;*/
+	background-position: center;
+	background-size: cover;
+	transition: all 0.3s ease;
+}
+.text{
+	font-size: 16px;
+
+}
