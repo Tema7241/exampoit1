@@ -31,11 +31,8 @@ body{
 		padding: 30px 0;
 }
 .foto{
-	max-height: 500px;
-	max-width: 500px;
-	fixed: right 50px;		
-	height: calc(95vw / 2 / 16 * 9);
-	width: calc(50vw - 10px );
+	object-fit: cover;	
+	width:100%;
 	background-color: dodgerblue;
 	/*margin: 5px;*/
 	background-position: center;
